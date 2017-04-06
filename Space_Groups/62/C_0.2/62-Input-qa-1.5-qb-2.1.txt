@@ -1,0 +1,25 @@
+opti prop cellonly 
+cell 
+6.2235 8.7103 6.1180 90.000 90.000 90.000 
+frac 
+K   core     0.0420 0.2500 0.4906 
+Ca  core     0.0000 0.0000 0.0000  
+F   core     0.4715 0.2500 0.5812  
+F   core     0.2916 0.0404 0.2068  
+F   shel     0.4715 0.2500 0.5812  
+F   shel     0.2916 0.0404 0.2068  
+space 
+62 
+species 
+K   core        1.5 
+Ca  core        2.1 
+F   core 0.378 
+F   shel    -1.578000000000 
+buckingham 
+K   core K core   2189.190 0.1916   0.00 0.0 30.0 
+Ca  core F shel   1482.300 0.2664   0.00 0.0 30.0  
+F   shel F shel    911.690 0.2707  13.8 0.0 30.0  
+K   core F shel   3521.60  0.2672   0.00 0.0 30.0 
+spring 
+F       31.924 
+output cif perov.cif 

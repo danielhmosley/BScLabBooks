@@ -1,0 +1,26 @@
+Keywords: 
+ 
+opti prop conp 
+ 
+Options: 
+ 
+cell 
+4.2 4.2 4.2 90 90 90 
+frac 
+K   core     0.00000  0.00000  0.00000 
+Zn  core     0.50000  0.50000  0.50000  
+F   core     0.50000  0.50000  0.50000  
+F   core     0.50000  0.50000  0.50000 
+F   core     0.50000  0.50000  0.50000 
+F   shel     0.50000  0.50000  0.50000  
+F   shel     0.50000  0.50000  0.50000 
+F   shel     0.50000  0.50000  0.50000 
+species 
+species 
+K   core        1.0 
+Zn  core        1.9 
+F   core 0.378 
+F   core     -1.093 
+spring 
+F       15.307 
+output cif perov.cif 

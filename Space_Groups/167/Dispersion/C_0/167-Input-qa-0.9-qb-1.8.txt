@@ -1,0 +1,23 @@
+opti prop cellonly 
+cell 
+6.0798 6.0798 14.7681 90.000 90.000 120.000 
+frac 
+Tb  core     0.00000  0.00000  0.00000 
+Ba  core     0.0000 0.0000  0.2500  
+O   core     0.4624   0.0000   0.2500  
+O   shel     0.4624   0.0000   0.2500  
+space 
+167 
+species 
+Tb  core        0.9 
+Ba  core        1.8 
+O   core 0.378 
+O   shel    -1.278000000000 
+buckingham 
+Ba  core Ba core   2189.190 0.1916   0.00 0.0 10.0 
+Tb  core O  shel   1482.300 0.2664   0.00 0.0 10.0  
+O   shel O  shel    911.690 0.2707  13.80 0.0 10.0  
+Ba   core O  shel   3521.60  0.2672   0.00 0.0 10.0 
+spring 
+O       20.940 
+output cif perov.cif 
